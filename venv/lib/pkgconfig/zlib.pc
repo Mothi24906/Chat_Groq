@@ -1,0 +1,13 @@
+prefix=/Users/personal/Desktop/streamlit/venv
+exec_prefix=/Users/personal/Desktop/streamlit/venv
+libdir=/Users/personal/Desktop/streamlit/venv/lib
+sharedlibdir=/Users/personal/Desktop/streamlit/venv/lib
+includedir=/Users/personal/Desktop/streamlit/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
